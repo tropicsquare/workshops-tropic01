@@ -108,10 +108,18 @@ In the PlatformIO menu on the left, under `Project tasks`, click `upload and mon
 Check and possibly change the `serial_port` setting in the platformio.ini file. The badge communicates over serial port—check how your system enumerated the badge and update `serial_port` accordingly.
 
 
-# Further info:
+# Resources
 
-* [libtropic-arduino](https://github.com/tropicsquare/libtropic-arduino)
-* [tropic01](https://github.com/tropicsquare/tropic01) - info about TROPIC01 chip
-* [https://www.tropicsquare.com/](https://www.tropicsquare.com/) - TROPIC SQUARE website
-* [MAC And Destroy app note](https://github.com/tropicsquare/tropic01/blob/main/doc/application_notes/ODN_TR01_app_002_pin_verif_1v1.pdf)
-* Firmware for the [CDC Badge Nametag](https://github.com/riatlabs/cdc-badge-nametag)
+* [libtropic-arduino](https://github.com/tropicsquare/libtropic-arduino) - Arduino library used in this workshop
+* [TROPIC01](https://github.com/tropicsquare/tropic01) - Chip documentation and specifications
+* [MAC And Destroy app note](https://github.com/tropicsquare/tropic01/blob/main/doc/application_notes/ODN_TR01_app_002_pin_verif_1v1.pdf) - Documentation on our unique pin verification engine
+* [CDC Badge Nametag firmware](https://github.com/riatlabs/cdc-badge-nametag) - Badge firmware with multiple applications (work in progress)
+
+# Support
+
+We're here to fix the chip industry and love answering your questions!
+
+* **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
+* **GitHub Issues**: Open an issue in any of our repositories
+* **Workshop**: Ask questions during the workshop
+
