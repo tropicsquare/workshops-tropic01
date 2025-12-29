@@ -6,7 +6,7 @@ CDC Badge uses an ESP32-S3 as the host processor. It can be programmed directly 
 
 This simplifies the initial setup and makes the workshop accessible to people with different skill levels—with the PlatformIO extension in VS Code, you don't need to worry much about the toolchain.
 
-We also have a Rust library [in progress](https://github.com/tropicsquare/libtropic-rs), but that's a different story :)
+This workshop is in C (C++) programming language. We somewhere have also a Rust library [in progress](https://github.com/tropicsquare/libtropic-rs), but that's a different story :)
 
 # Getting ready
 
