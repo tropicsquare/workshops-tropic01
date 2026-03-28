@@ -35,6 +35,8 @@ Pozor na zrádnou tabulku v hlavní dokumentaci, kde řádky nejsou ve stejném 
 
 # Instalace prostředí
 
+V případě, že pracujete na školních počítačích, celý tento krok přeskočte.
+
 Proveďte kroky 1-3 z [ruční instalace ESP-IDF verze 5.5.3](https://docs.espressif.com/projects/esp-idf/en/v5.5.3/esp32/get-started/linux-macos-setup.html#get-started-get-esp-idf).
 
 Pokud používáte bash (a pro případ instalace závislostí je Vaše distribuce Ubuntu nebo Debian), můžete postupovat přímo takto: 
@@ -46,11 +48,6 @@ sudo apt-get install git wget flex bison gperf python3 python3-pip python3-venv 
 ```
 mkdir -p ~/esp
 cd ~/esp
-git clone -b v5.5.3 --recursive https://github.com/espressif/esp-idf.git
-```
-
-V případě, že pracujete na školních počítačích, klonujte takto:
-```
 git clone -b v5.5.3 --recursive https://github.com/espressif/esp-idf.git
 ```
 
