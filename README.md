@@ -7,6 +7,7 @@ Each workshop focuses on practical implementations using TROPIC01 in different c
 ## Workshops
 
 - [39C3](/39C3/) - Programming TROPIC01 on the CDC Badge Nametag
+- [IF26](/IF26/) - Introductory workshop on TROPIC01 (CZ only)
 
 ## About TROPIC01
 
@@ -17,6 +18,7 @@ Learn more at [tropicsquare.com](https://www.tropicsquare.com/)
 ## Resources
 
 - [TROPIC01 GitHub](https://github.com/tropicsquare/tropic01) - Chip documentation and specifications
+- [libtropic](https://github.com/tropicsquare/libtropic) - General library for TROPIC01
 - [libtropic-arduino](https://github.com/tropicsquare/libtropic-arduino) - Arduino library for TROPIC01
 - [libtropic-rs](https://github.com/tropicsquare/libtropic-rs) - Rust library (in progress)
 - [Support Desk](https://support.desk.tropicsquare.com) - Technical support
