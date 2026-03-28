@@ -10,10 +10,28 @@ Ukázkové příklady jsou napsány v jazyce C (C++). V současné době je ve v
 
 Následujte tyto kroky[kroky](https://tropicsquare.github.io/libtropic/latest/tutorials/esp32/):
 
+* Propojte DevKity
 * Nainstalujte (pokud nemáte) ESP IDF, ideálně verze 5.x, přičemž stačí instalace pro čipy esp32
 * Naklonujte repozitář libtropic
-* Propojte DevKity
 * Spusťte postupně ukázkové příklady
+
+# Propojte DevKity
+
+Pozor na zrádnou tabulku v hlavní dokumentaci, kde řádky nejsou ve stejném pořadí jako piny na obrázku. Zde je to v pořádku.
+
+![Arduino shield](./arduino-shield-pinout.svg)
+
+| TROPIC01 Arduino Shield Pin | ESP32-DevKitC-V4 Pin |
+|:---------------------------:|:--------------------:|
+| IOREF                       | 3V3                  |
+| +3V3                        | 3V3                  |
+| GND                         | GND                  |
+| SCK                         | GPIO18               |
+| MISO                        | GPIO19               |
+| MOSI                        | GPIO23               |
+| CS                          | GPIO5                |
+| GPO                         | GPIO32               |
+
 
 # Instalace prostředí
 
