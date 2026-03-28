@@ -41,7 +41,9 @@ Pokud používáte bash (a pro případ instalace závislostí je Vaše distribu
 
 ```
 sudo apt-get install git wget flex bison gperf python3 python3-pip python3-venv cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
+```
 
+```
 mkdir -p ~/esp
 cd ~/esp
 git clone -b v5.5.3 --recursive https://github.com/espressif/esp-idf.git
@@ -86,7 +88,9 @@ Poté vyzkoušejte i další příklady, kde updatujete FW čipu TROPIC01 a nav�
 cd ../fw_update/
 . $HOME/esp/esp-idf/export.sh
 idf.py build flash monitor
+```
 
+```
 cd ../hello_world/
 . $HOME/esp/esp-idf/export.sh
 idf.py build flash monitor
