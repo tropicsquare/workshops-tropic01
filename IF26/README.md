@@ -8,7 +8,7 @@ Ukázkové příklady jsou napsány v jazyce C (C++). V současné době je ve v
 
 # Příprava
 
-Následujte tyto kroky[kroky](https://tropicsquare.github.io/libtropic/latest/tutorials/esp32/):
+Následujte tyto [kroky](https://tropicsquare.github.io/libtropic/latest/tutorials/esp32/):
 
 * Propojte DevKity
 * Nainstalujte (pokud nemáte) ESP IDF, ideálně verze 5.x, přičemž stačí instalace pro čipy esp32
@@ -48,14 +48,21 @@ mkdir -p ~/esp
 cd ~/esp
 git clone -b v5.5.3 --recursive https://github.com/espressif/esp-idf.git
 ```
+
+V případě, že pracujete na školních počítačích, klonujte takto:
+```
+git clone -b v5.5.3 --recursive https://github.com/espressif/esp-idf.git
+```
+
 ## Mezitím se pobavíme o tom, co to je secure element a konkrétně TROPIC01 a co nabízí...
 
 * Vzájemná autentizace
-* Bezpečné úložiště dat i klíčů
+* Bezpečné úložiště dat a klíčů
 * Generování klíčů
 * Podepisování
 * TRNG a PUF
 * MAC And Destroy (ověření PINu)
+* To všechno s ochranami proti útokům postranními kanály a vkládáním chyb
 
 ## Pokračujeme v instalaci...
 
