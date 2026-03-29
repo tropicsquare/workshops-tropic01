@@ -8,7 +8,7 @@ Ukázkové příklady jsou napsány v jazyce C (C++). V současné době je ve v
 
 # Příprava
 
-Následujte tyto [kroky](https://tropicsquare.github.io/libtropic/latest/tutorials/esp32/):
+Následujte tyto kroky popsané podrobněji v [oficiální dokumentaci k SDK](https://tropicsquare.github.io/libtropic/latest/tutorials/esp32/):
 
 * Propojte DevKity
 * Nainstalujte (pokud nemáte) ESP IDF, ideálně verze 5.x, přičemž stačí instalace pro čipy esp32
@@ -35,7 +35,7 @@ Pozor na zrádnou tabulku v hlavní dokumentaci, kde řádky nejsou ve stejném 
 
 # Instalace prostředí
 
-V případě, že pracujete na školních počítačích, celý tento krok přeskočte.
+V případě, že pracujete na školních počítačích na akci Installfest 2026, celý krok `Instalace prostředí` přeskočte.
 
 Proveďte kroky 1-3 z [ruční instalace ESP-IDF verze 5.5.3](https://docs.espressif.com/projects/esp-idf/en/v5.5.3/esp32/get-started/linux-macos-setup.html#get-started-get-esp-idf).
 
@@ -85,6 +85,9 @@ cd ./libtropic/examples/esp32/ESP32-DevKitC-V4/identify_chip/
 . $HOME/esp/esp-idf/export.sh
 idf.py build flash monitor
 ```
+> 📝 **Poznámka:**
+> Program v ESP32 cyklicky kontroluje SPI a nerozezná konec příkladu. Bez ohledu na výsledek (korektní nebo chybový průběh)
+> ukončíte spuštěný příklad kombinací kláves `CTRL + ]`.
 
 Poté vyzkoušejte i další příklady, kde updatujete FW čipu TROPIC01 a navážete Secure session nutnou k provádění pokročilejších příkazů.
 
@@ -99,6 +102,9 @@ cd ../hello_world/
 . $HOME/esp/esp-idf/export.sh
 idf.py build flash monitor
 ```
+> 📝 **Poznámka:**
+> Předtím než budete s čipem pokračovat v další práci doma, prohlédněte si více dokumentace na [našem GitHubu](https://github.com/tropicsquare).
+> Především zkontrolujte na [stránce pro konkrétní čip](https://github.com/tropicsquare/tropic01/blob/main/doc/pages/parts/TR01-C2P-T103.md) Errata upozorňující na případné problematické chování čipů TROPIC01.
 
 # TROPIC01 Manager
 
