@@ -108,26 +108,26 @@ idf.py build flash monitor
 
 # TROPIC01 Manager
 
-Graficky manager pro ovladani TROPIC01
+Grafický manager pro ovládání TROPIC01
 
-## Podporovana pripojeni
+## Podporovaná připojení
  - UART
  - TCP
  - Network
  - FTDI SPI
 
 ### UART
-Tento transport je vyuzit v USB-C Tropic01 dev kit nebo pomoci UART-Serveru v micropythonu na ESP32 a SPI tropic
+Tento transport je využit v USB-C TROPIC01 DevKit nebo pomocí UART-Serveru v micropythonu na ESP32 a SPI TROPIC01
 
 ### Network
-Pripojeni pomoci vzdaleneho SPI serveru, opet na ESP32 s tropicem pripojenym pres SPI
+Připojení pomocí vzdáleného SPI serveru, opět na ESP32 s TROPIC01 připojeným přes SPI
 
 ### TCP
-Pripojeni na TROPIC01 emulator/model dostupnym na https://github.com/tropicsquare/ts-tvl
+Připojení na TROPIC01 emulátor/model dostupný na https://github.com/tropicsquare/ts-tvl
 
 
 ### FTDI SPI
-Pri pouziti USB FT2232H chipu a jeho MPSSE se da pripojit primo k SPI tropicu. Tento transport vyzaduje master verzi pytropicsquare knihovny (v dobe teto prezentace, jinak bude vydan ve verzi 0.0.4)
+Při použití USB FT2232H čipu a jeho MPSSE se lze připojit přímo k SPI TROPIC01. Tento transport vyžaduje master verzi pytropicsquare knihovny (v době tohoto workshopu, jinak bude vydán ve verzi 0.0.4)
 
 
 ## Postup pro instalaci
