@@ -147,8 +147,8 @@ python gui.py
 
 Jsme tu, abychom napravili průmysl a rádi odpovídáme na Vaše dotazy!
 
-* **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
-* **Discord**: Funguje v angličtině, ale v DM klidně přepneme do češtiny. [Discord](https://discord.com/invite/d4wNpvXskM)
-* **GitHub Issues**: Otevřte issue na našem GitHubu
-* **Workshop**: Ptejte se kdykoli během něj
+- **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
+- **Discord**: Funguje v angličtině, ale v DM klidně přepneme do češtiny. [Discord](https://discord.com/invite/d4wNpvXskM)
+- **GitHub Issues**: Otevřte issue na našem GitHubu
+- **Workshop**: Ptejte se kdykoli během něj
 
