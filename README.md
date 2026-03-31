@@ -28,5 +28,6 @@ Learn more at [tropicsquare.com](https://www.tropicsquare.com/)
 We're here to fix the chip industry and love answering your questions!
 
 - **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
+- **Discord**: [Invite link](https://discord.com/invite/d4wNpvXskM)
 - **GitHub Issues**: Open an issue in the relevant repository
 - **Workshops**: Ask questions during our workshops

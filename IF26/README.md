@@ -17,7 +17,7 @@ Následujte tyto kroky popsané podrobněji v [oficiální dokumentaci k SDK](ht
 
 # Propojte DevKity
 
-Pozor na zrádnou tabulku v hlavní dokumentaci, kde řádky nejsou ve stejném pořadí jako piny na obrázku. Zde je to v pořádku.
+Řádky následující tabulky jsou ve stejném pořadí jako piny na obrázku (shora dolů, levá strana jako první).
 
 ![Arduino shield](./arduino-shield-pinout.svg)
 
@@ -32,6 +32,8 @@ Pozor na zrádnou tabulku v hlavní dokumentaci, kde řádky nejsou ve stejném 
 | CS                          | GPIO5                |
 | GPO                         | GPIO32               |
 
+> 📝 **Poznámka:**
+> Na `3V3` pin ESP32 je potřeba připojit dva různé piny Arduino shieldu. Toho lze docílit tak, že propojíte `3V3` piny obou desek a dutinku k pinu `IOREF` připojíte k nožičce pinu `+3V3` na Arduino shieldu z opačné strany.
 
 # Instalace prostředí
 
@@ -102,7 +104,7 @@ cd ../hello_world/
 . $HOME/esp/esp-idf/export.sh
 idf.py build flash monitor
 ```
-> 📝 **Poznámka:**
+> ⚠️ **VAROVÁNÍ:**
 > Předtím než budete s čipem pokračovat v další práci doma, prohlédněte si více dokumentace na [našem GitHubu](https://github.com/tropicsquare).
 > Především zkontrolujte na [stránce pro konkrétní čip](https://github.com/tropicsquare/tropic01/blob/main/doc/pages/parts/TR01-C2P-T103.md) Errata upozorňující na případné problematické chování čipů TROPIC01.
 
@@ -145,8 +147,8 @@ python gui.py
 
 Jsme tu, abychom napravili průmysl a rádi odpovídáme na Vaše dotazy!
 
-* **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
-* **Discord**: Funguje v angličtině, ale v DM klidně přepneme do češtiny. [Discord](https://discord.com/invite/d4wNpvXskM)
-* **GitHub Issues**: Otevřte issue na našem GitHubu
-* **Workshop**: Ptejte se kdykoli během něj
+- **Support Desk**: [support.desk.tropicsquare.com](https://support.desk.tropicsquare.com)
+- **Discord**: Funguje v angličtině, ale v DM klidně přepneme do češtiny. [Discord](https://discord.com/invite/d4wNpvXskM)
+- **GitHub Issues**: Otevřte issue na našem GitHubu
+- **Workshop**: Ptejte se kdykoli během něj
 
